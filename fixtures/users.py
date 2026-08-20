@@ -2,7 +2,6 @@ import pytest
 from pydantic import BaseModel, EmailStr
 
 # Импортируем API клиенты
-from clients.authentication.authentication_client import AuthenticationClient, get_authentication_client
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.private_users_client import get_private_users_client, PrivateUsersClient
 from clients.users.public_users_client import get_public_users_client, PublicUsersClient
@@ -26,11 +25,6 @@ class UserFixture(BaseModel):
     @property
     def authentication_user(self) -> AuthenticationUserSchema:
         return AuthenticationUserSchema(email=self.email, password=self.password)
-
-@pytest.fixture  # Объявляем фикстуру, по умолчанию скоуп function, то что нам нужно
-def authentication_client() -> AuthenticationClient:  # Аннотируем возвращаемое фикстурой значение
-    # Создаем новый API клиент для работы с аутентификацией
-    return get_authentication_client()
 
 
 @pytest.fixture  # Объявляем фикстуру, по умолчанию скоуп function, то что нам нужно
