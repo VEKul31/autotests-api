@@ -97,3 +97,7 @@ def assert_get_file_with_incorrect_file_id_response(actual: ValidationErrorRespo
         ]
     )
     assert_validation_error_response(actual, expected)
+
+
+def assert_file():
+    return None
