@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjE2OjQxLjI0ODkyOSIsInVzZXJfaWQiOiI4MGRiZGEwZC1iY2Q3LTQ2MzEtYmI2OC00ZTk2MmFkNjhkYjQifQ.0gFfVKvb3qFJshEr4nZYt6FZZqUGuGjUX08LeSKXC2M' \
+  -H 'content-length: 444' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Learn hair still this conference experience trip.","maxScore":55,"minScore":17,"description":"Structure theory society teacher. Well account condition economy instead letter support.\nAbout happen want. Politics natural pass beat culture. Clear attention whom. Above focus family matter rather.","estimatedTime":"1 weeks","previewFileId":"fadcd647-bb65-4d37-9056-2ac188be536e","createdByUserId":"80dbda0d-bcd7-4631-bb68-4e962ad68db4"}'

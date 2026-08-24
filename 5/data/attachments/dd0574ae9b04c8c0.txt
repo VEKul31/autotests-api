@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Learn hair still this conference experience trip.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 55
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 17
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Structure theory society teacher. Well account condition economy instead letter support.
+About happen want. Politics natural pass beat culture. Clear attention whom. Above focus family matter rather.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file_id" equals to fadcd647-bb65-4d37-9056-2ac188be536e
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user_id" equals to 80dbda0d-bcd7-4631-bb68-4e962ad68db4
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

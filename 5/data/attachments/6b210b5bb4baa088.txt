@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjE2OjQyLjE0OTY5NiIsInVzZXJfaWQiOiJkNTVhMGU3Yi05N2IyLTRiMzktYTgyZC0yMjVkZTg2NTU2MjkifQ.RA-97wUb5-8idY59m5CZejrCNWYVww_C5iM7_Bpg6Ik' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Read hard bring risk.","maxScore":72,"minScore":1,"description":"Continue read thousand someone movie question despite. Plan what wish care. Bar spend as thousand a executive almost can.\nSingle here night accept manager environment right. Information our fine.","estimatedTime":"3 weeks","previewFileId":"16380e62-9393-40c2-8dbe-0cfd3ae27e91","createdByUserId":"d55a0e7b-97b2-4b39-a82d-225de8655629"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjE2OjQxLjAwNzQyNyIsInVzZXJfaWQiOiIxOGU1NDlmNS1lOTNmLTQwN2EtYmJhMy0wMTU1MWE3YjI1MTgifQ.GW5mQFAI7RzrsPa3tdMbx0AV-K2g40fPdVgQpTJhj-c' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Of figure bad around expect yourself.","maxScore":100,"minScore":3,"description":"Approach meet finally stay. Maintain soldier buy attack beautiful current. Artist approach could create.\nAway popular opportunity spring call.","estimatedTime":"10 weeks","previewFileId":"e94a96f7-29a0-4598-9408-6881cce86eed","createdByUserId":"18e549f5-e93f-407a-bba3-01551a7b2518"}'

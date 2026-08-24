@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/5381e546-da20-435e-96ad-896d3c285f8c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjE2OjM5Ljc1NDQ5OCIsInVzZXJfaWQiOiJiNTJlZjMwYy0yMTAxLTQzZGYtYmYxNy1iZDc0NmNiNTgwYmUifQ.UzkKxOOELX6ws3lO0tWUEyjaSymWaBrLuQm5xBHI-ws' \
+  -H 'content-length: 259' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Star other effect from.","maxScore":78,"minScore":14,"description":"Public century least worry bag structure guy. Machine ready really former.\nResponsibility able authority. Receive want radio hear system around require.","estimatedTime":"4 weeks"}'

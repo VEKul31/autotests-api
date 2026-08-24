@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjE2OjQzLjE3NTk5MyIsInVzZXJfaWQiOiI3ZGFjNjFiOS1jMTJlLTRlOGMtYjkzYi03NDE2MGJjMWZiZWYifQ.dAjl2ndvsHdu6E0pIHL__gA2IkORQe2xXz-PTo6dvAI' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Table state then medical yes enjoy.","maxScore":63,"minScore":15,"description":"Pull team religious ok lead answer. Tell democratic still her animal media. New church education operation.\nHuge pattern series grow station. Image play material to industry list wait phone.","estimatedTime":"10 weeks","previewFileId":"5e2364bf-23e8-4242-a082-fec493bdd2e8","createdByUserId":"7dac61b9-c12e-4e8c-b93b-74160bc1fbef"}'

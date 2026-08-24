@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjE2OjM5Ljc1NDQ5OCIsInVzZXJfaWQiOiJiNTJlZjMwYy0yMTAxLTQzZGYtYmYxNy1iZDc0NmNiNTgwYmUifQ.UzkKxOOELX6ws3lO0tWUEyjaSymWaBrLuQm5xBHI-ws' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"She think certain commercial difference action view name.","maxScore":68,"minScore":2,"description":"Identify beyond prepare not house half I staff.\nBusiness technology candidate sort.\nDifference performance must amount cell. Join fund bit one late professional consider.","estimatedTime":"4 weeks","previewFileId":"127e3c73-4479-431b-856a-6674a7950cb6","createdByUserId":"b52ef30c-2101-43df-bf17-bd746cb580be"}'

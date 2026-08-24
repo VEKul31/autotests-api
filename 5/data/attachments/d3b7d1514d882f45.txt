@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjE2OjQ0LjU1NjU0MCIsInVzZXJfaWQiOiJhNGY3NDZjNi1kM2U0LTQ3OGMtYWQ5Yy0yNDRlOTYxNDU3NTkifQ.Z4lQnUK5OJeNZWwhwF-Cq7qxv9lUym4LY1VLb_RzTlw' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Player nature day Republican political.","maxScore":71,"minScore":17,"description":"Citizen word player road. Congress care property meet near father.\nRoom American report they large billion. Draw method few.","estimatedTime":"2 weeks","previewFileId":"acfff505-f611-40ff-a291-27220ac7f7c6","createdByUserId":"a4f746c6-d3e4-478c-ad9c-244e96145759"}'
