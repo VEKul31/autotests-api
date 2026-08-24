@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjEzOjI3LjI0NDEzMCIsInVzZXJfaWQiOiJlYWY1MmY2OS1mYjM3LTRlZDMtYTAxOS1lYTVlZmQ4MzQxNTYifQ.nQPlAH3TbeiM4-Ag162daLn88-1Zwr8YDCDgd7s7qWY' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Old south indicate night.","courseId":"53017110-ba32-4934-a8f0-d3ba6e1d019e","maxScore":81,"minScore":1,"orderIndex":69,"description":"Shoulder name glass. Pull seven carry power anything increase world.\nTop itself heavy hold according mission they whether. Break much sign ball throw century. May watch tell.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjEzOjI4Ljk1MjQzNCIsInVzZXJfaWQiOiI0YmIzMjdmNC02YjljLTQ1YWUtYmIyNi1mYWM5MmU5ZjY5MTIifQ.3BQc_D5HzOgaANNyc8W2bj2V7F4C56otUyjUnMxC_Fc' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Maybe must charge scene.","maxScore":86,"minScore":20,"description":"Reason turn nearly. Computer three whose PM I Mr shake price. Include before fear. Six hour before.\nFinally employee form natural ahead treatment born. Everybody believe so find.","estimatedTime":"6 weeks","previewFileId":"b16a0ce0-1984-4900-809e-752e18b20812","createdByUserId":"4bb327f4-6b9c-45ae-bb26-fac92e9f6912"}'

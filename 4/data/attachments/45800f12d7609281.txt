@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjEzOjI2LjAyODMyOCIsInVzZXJfaWQiOiI1MzJlY2FlZi1lNjBiLTQxZTktOTMwNy1hMzRkNjFlODRjYWQifQ.NQkdA8Utonm7wpnFQOPPO8HFSuPiGDw50HDgo9fbqCc' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Toward from everybody Republican base rate concern allow.","maxScore":100,"minScore":17,"description":"Information exist never contain lose single evening. Year however wonder among. Short provide ball now condition than address.","estimatedTime":"5 weeks","previewFileId":"671e331f-da3f-43b0-ab62-5bfada36371d","createdByUserId":"532ecaef-e60b-41e9-9307-a34d61e84cad"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjEzOjI3LjgwNTc1NyIsInVzZXJfaWQiOiIwMDZlY2E3OC00YmU5LTRmNGUtODJiNi0yZjMxMDhjY2QxODMifQ.8NpopAu8Al5CNKKsJY5mt2mRJyzm-9aRGRkDs05FjM8' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reduce call they character research magazine result.","courseId":"a878a875-6ff4-46dc-9a8a-37e8836b784e","maxScore":54,"minScore":29,"orderIndex":67,"description":"Ball consumer everything claim happen. Culture wish site leader.\nSingle lose guess first operation later. Fall western push they leader need low. Accept despite above friend forget ever police.","estimatedTime":"1 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/716d607b-4cf1-473e-b65c-c466664c1cad' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjEzOjI2LjAyODMyOCIsInVzZXJfaWQiOiI1MzJlY2FlZi1lNjBiLTQxZTktOTMwNy1hMzRkNjFlODRjYWQifQ.NQkdA8Utonm7wpnFQOPPO8HFSuPiGDw50HDgo9fbqCc' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Church set fact need property personal.","maxScore":62,"minScore":11,"description":"Seven tough apply quite. Do himself discussion free.\nMan current customer young source market. No report list order ahead have.\nLive arm reflect when cost dinner reduce. Run protect sure.","estimatedTime":"1 weeks"}'

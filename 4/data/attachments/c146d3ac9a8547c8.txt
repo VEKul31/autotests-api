@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjEzOjI4LjI3OTc0NSIsInVzZXJfaWQiOiJiNzI4YzRjMC04OTJhLTQyZTUtYTlhMy1jZDEzNWQ1ZjQxZTIifQ.14FGx9jUMQ6UmmIj6tCJtkVvsZdfDnwIgF59OC53B2c' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Star memory relationship positive us.","maxScore":89,"minScore":3,"description":"Film several help human TV crime positive. Point concern people play performance sport news.","estimatedTime":"1 weeks","previewFileId":"8e3d1825-c546-4eb3-b8d4-1df231bc6a79","createdByUserId":"b728c4c0-892a-42e5-a9a3-cd135d5f41e2"}'

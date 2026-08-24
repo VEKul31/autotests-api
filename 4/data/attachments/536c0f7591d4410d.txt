@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjEzOjI5LjE0MzM1NCIsInVzZXJfaWQiOiJkODkzY2Q5NC0wNzJlLTQwM2QtOTI4Mi1lNGVhNDhiMWI2ZGEifQ.MpSsL2TY2J0NOsjSYIZ1_jWM35Em6qpt8HWd9nFdYts' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Him condition behavior view floor create campaign.","maxScore":51,"minScore":29,"description":"However bad try bag individual recently quickly. Crime wear safe expect value land.\nAgo write apply experience. Now receive voice technology responsibility.","estimatedTime":"4 weeks","previewFileId":"4c3a21ff-6aa4-4aaf-ab62-ec62be175091","createdByUserId":"d893cd94-072e-403d-9282-e4ea48b1b6da"}'

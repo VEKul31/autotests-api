@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjEzOjI5LjE0MzM1NCIsInVzZXJfaWQiOiJkODkzY2Q5NC0wNzJlLTQwM2QtOTI4Mi1lNGVhNDhiMWI2ZGEifQ.MpSsL2TY2J0NOsjSYIZ1_jWM35Em6qpt8HWd9nFdYts' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Impact clearly listen thousand risk determine pick.","courseId":"811af8cc-411b-4ea4-b856-da8928d77557","maxScore":52,"minScore":12,"orderIndex":69,"description":"Light I wrong stock. Seem adult ready manage. Chance radio good picture baby.\nParticularly few leg act. Personal true whose tell raise argue me can.","estimatedTime":"2 weeks"}'

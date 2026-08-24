@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjEzOjI3LjA1MjkzNSIsInVzZXJfaWQiOiJjNThkYzYxYS1jY2IxLTQwNGQtYTY3YS0yYzMxZDI3ZTlmZDQifQ.RhpqUDbDA-VyxXdiSd7NDUX3XjTCVOfPRmcQUfMv_LA' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"He prove day happen morning prove law.","maxScore":82,"minScore":21,"description":"Help technology table security doctor. Collection very who fund piece party environment. Research everyone work why leg design. Service account civil art possible.","estimatedTime":"4 weeks","previewFileId":"362b8109-f485-4397-853f-552fc8f2d434","createdByUserId":"c58dc61a-ccb1-404d-a67a-2c31d27e9fd4"}'
