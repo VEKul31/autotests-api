@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjQ5OjM4LjQxMzcyMSIsInVzZXJfaWQiOiIyODliODlhNy1mZDcyLTQ3YjEtOGM5ZS1hMTY1ZjllMTJjOWQifQ.HWrW-8k-o7O8xNhNANBehO7uT38ZPdJWTufYKapmU1A' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Season whole say compare.","maxScore":82,"minScore":19,"description":"Result reality during occur control. Same follow use stage how which. Upon he show reach thought pressure.\nWhose any forward nice manage. Tough glass whatever bad.","estimatedTime":"3 weeks","previewFileId":"8f5e3aeb-d565-4ee1-9fe7-bf75e51d164a","createdByUserId":"289b89a7-fd72-47b1-8c9e-a165f9e12c9d"}'

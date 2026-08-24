@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjQ5OjM4Ljk5NTIzOCIsInVzZXJfaWQiOiIwMDdiMDEyMi0wM2Q3LTRlMTItYjkyNy02YTNhYTViYjliNTkifQ.LOJCVjddk2aqcruOKdKFyvuvfyfyj2PapxbWv8hl8aw' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Possible population wall music money.","maxScore":71,"minScore":30,"description":"Our likely participant boy add we. Sort outside white simply in year now. Lot late catch office tonight.\nDrive moment happen kind whose. Material method simple fish true decade product.","estimatedTime":"5 weeks","previewFileId":"6632bfed-3fe3-4f1d-91e5-2980b431f0e1","createdByUserId":"007b0122-03d7-4e12-b927-6a3aa5bb9b59"}'

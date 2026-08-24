@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/83c320f2-12a0-4446-a96c-c87ba6ee2b1e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjQ5OjM4LjQxMzcyMSIsInVzZXJfaWQiOiIyODliODlhNy1mZDcyLTQ3YjEtOGM5ZS1hMTY1ZjllMTJjOWQifQ.HWrW-8k-o7O8xNhNANBehO7uT38ZPdJWTufYKapmU1A' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rule south purpose technology agency small responsibility.","maxScore":78,"minScore":6,"orderIndex":56,"description":"Debate raise push reach all effort. Start mean edge again. Garden list fire can.\nSource sport record for responsibility. Stand fast shake.","estimatedTime":"10 weeks"}'

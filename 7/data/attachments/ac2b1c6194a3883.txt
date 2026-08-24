@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjQ5OjM3Ljg5MDQ0NyIsInVzZXJfaWQiOiJlY2Y2ZmZhMS1jMjc4LTQ0ZmItYTA2OC1kODRmM2RhNjUzYzgifQ.oKwoxkle9LzUBui0R5X_Xg2YyngopU7zOEG6ZlR9t00' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Until important building environmental sea.","maxScore":78,"minScore":23,"description":"Two their indeed simply. Cover glass information plant. Garden future also thank born.\nIncluding free week. Sound price particular reflect.","estimatedTime":"4 weeks","previewFileId":"4033a99b-5839-42ad-8d31-c497c4dbe004","createdByUserId":"ecf6ffa1-c278-44fb-a068-d84f3da653c8"}'

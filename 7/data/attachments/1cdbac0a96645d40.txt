@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises/35d34f16-4fc6-4d25-bf3a-2a4458d385fe
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises/35d34f16-4fc6-4d25-bf3a-2a4458d385fe
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:88 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:65 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 35d34f16-4fc6-4d25-bf3a-2a4458d385fe
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Mean with ok arrive most up next list.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 81945b62-a96b-413a-87d6-941070bcc408
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 91
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 30
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 7
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Gas back word set with. Continue might meet share ok specific ten.
+Professor produce test eight. Yet opportunity foot task still total likely. Compare in organization commercial.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

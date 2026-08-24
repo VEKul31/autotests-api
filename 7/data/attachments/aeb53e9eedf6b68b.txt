@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f7993625-b11d-47d2-bb2d-77d3f888548f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjQ5OjM1Ljk5MTcxMCIsInVzZXJfaWQiOiJhYThhMGQ5Ny00NDgwLTRhNzAtOTliNy02NGYzYWI5OGJlYjIifQ.jnPfUkHNZXz1L4Pp9BFvfjofy5GLtw-ikeqwjMbRLq0' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Growth customer here suffer system only.","maxScore":78,"minScore":2,"description":"Just far analysis statement understand remember. Movement capital network mean can long find.\nPretty Mr produce whatever radio administration. Network adult recognize partner.","estimatedTime":"4 weeks"}'

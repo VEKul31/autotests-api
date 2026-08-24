@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjQ5OjM3LjMyNDU2NiIsInVzZXJfaWQiOiIyNzUxMDFmYS04Y2RlLTRmM2EtOTQ5MS1kZTZkM2EyNWYzMzEifQ.hX6HwgH1vpI0NZFU_6FrGm51ANdx19p0SutMDxJw3U0' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Design their rule.","maxScore":79,"minScore":11,"description":"Possible class accept west.\nLay food pay guy sea agency conference. Rest training year because rule American husband effect. Up home alone training.","estimatedTime":"8 weeks","previewFileId":"66884d20-0e8a-4348-a875-82c284e72f32","createdByUserId":"275101fa-8cde-4f3a-9491-de6d3a25f331"}'

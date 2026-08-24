@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjQ5OjM5LjUxODM2OSIsInVzZXJfaWQiOiIwZjdkMTJjNi1hZjk2LTQ0NjUtYjFiMi02Mzk5YzdmZjM5MWQifQ.qqMgHWPx9Ry7vH6WnktTnLm8SYJoOI097bd5ldK7bBo' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Area strategy young heavy figure history Republican.","maxScore":79,"minScore":2,"description":"Break technology series cultural hot usually brother. Grow carry skin project this. More difference civil down house know threat.","estimatedTime":"5 weeks","previewFileId":"8aed9141-8d4c-4e5a-914f-af0827a128c2","createdByUserId":"0f7d12c6-af96-4465-b1b2-6399c7ff391d"}'

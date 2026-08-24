@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjQ5OjM1Ljk5MTcxMCIsInVzZXJfaWQiOiJhYThhMGQ5Ny00NDgwLTRhNzAtOTliNy02NGYzYWI5OGJlYjIifQ.jnPfUkHNZXz1L4Pp9BFvfjofy5GLtw-ikeqwjMbRLq0' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Step fish control check price.","maxScore":65,"minScore":27,"description":"Understand pull use our despite whatever month. Thing heart city daughter. Firm whatever school policy everything after church range.","estimatedTime":"9 weeks","previewFileId":"08f79f92-cc7e-4eec-9153-dae341cce15d","createdByUserId":"aa8a0d97-4480-4a70-99b7-64f3ab98beb2"}'
