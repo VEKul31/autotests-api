@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/74eab528-5d5e-49c4-b6df-bf633d5dd20d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjMyOjE4Ljk0MDQ3OSIsInVzZXJfaWQiOiJmZTMxNWNmNS1kMWY4LTRkMDMtOGYzZC02ODNiYjgyMmYyYzkifQ._iMSm9CQCRu7e7h4B5i6elwyFUHCYZA7vpyuARHSzwk' \
+  -H 'content-length: 280' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Office least similar building stage.","maxScore":97,"minScore":18,"orderIndex":58,"description":"Significant with fund road believe raise live who. Hope necessary I film. Long happen whom response. Third increase his section soon girl impact.","estimatedTime":"7 weeks"}'

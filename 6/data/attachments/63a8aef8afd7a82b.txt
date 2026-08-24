@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjMyOjE4LjcyNDI0NiIsInVzZXJfaWQiOiI1ZDQxMzQ1Zi03MmJmLTQxYjYtODc1Yy1mZGMxNDQ2NTlkYTIifQ.qCMc3NSxkoXcoK9GZTWuqJ-Cl7FMJ1ZYt4Ets-S_viQ' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movie recent phone lay view.","maxScore":78,"minScore":10,"description":"Each safe during affect girl. Term its civil let more that. Pull car compare manage personal attention.","estimatedTime":"9 weeks","previewFileId":"c8f34d45-380e-47da-a230-f05099a2e6a2","createdByUserId":"5d41345f-72bf-41b6-875c-fdc144659da2"}'

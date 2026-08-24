@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjMyOjIwLjA0Mjc1NCIsInVzZXJfaWQiOiJiZmI1ZDgxMy03MWJhLTQzOTgtYTA4MC0yNzc1MzY4OTViNTgifQ.RaNVUzj2yttb8buLK6g_TrOaXJsZNv9s-6AwzMv1b-s' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Firm method of foot white senior woman miss.","courseId":"4185b939-5dde-4eeb-bd23-43c37e059e89","maxScore":63,"minScore":29,"orderIndex":3,"description":"Become for area represent field piece recognize. Each administration big describe health skin. Final fast physical current other meet.","estimatedTime":"9 weeks"}'

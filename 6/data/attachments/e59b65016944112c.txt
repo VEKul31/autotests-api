@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjMyOjE3LjQ0NjY4MiIsInVzZXJfaWQiOiI1OTI3ZTIyMy1mYTNmLTQzZTAtODY2MC02NDQyMDczNDRiMDMifQ.ArqOpv3AOrlYtJ2ZnnSSh_DlIh3cg2770gGbYI2--GQ' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decade show though college government.","maxScore":65,"minScore":4,"description":"Them answer land culture dinner myself win. Significant near red scientist. Up word box show travel foot maintain. Walk policy political rest better serious million dark.","estimatedTime":"7 weeks","previewFileId":"49b3eb4c-2bec-49fa-b05c-a8db7f68c2a9","createdByUserId":"5927e223-fa3f-43e0-8660-644207344b03"}'

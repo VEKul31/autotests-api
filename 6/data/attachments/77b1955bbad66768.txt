@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ee3f828c-680c-48e5-ab8e-58b9be8a3134' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjMyOjE2LjY2NzUxMiIsInVzZXJfaWQiOiI0MDc0YjZiZi0wOGE1LTQ1NjAtYTcwMS05YmE4NGE5NTlkNWUifQ.b28ldNKq_AW5JC4KHdXtJd0nX3KISWXV2Uua4OEYGFI' \
+  -H 'content-length: 291' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Weight listen son.","maxScore":98,"minScore":24,"description":"Three enjoy answer wind rise us bed son. Wrong hard soon tax source large agency.\nPick able provide board never. Recognize including officer live. Letter indicate feeling whole occur focus.","estimatedTime":"9 weeks"}'

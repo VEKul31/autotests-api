@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjMyOjE4LjcyNDI0NiIsInVzZXJfaWQiOiI1ZDQxMzQ1Zi03MmJmLTQxYjYtODc1Yy1mZGMxNDQ2NTlkYTIifQ.qCMc3NSxkoXcoK9GZTWuqJ-Cl7FMJ1ZYt4Ets-S_viQ' \
+  -H 'content-length: 278' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Position imagine between still last arm.","courseId":"0a50afa5-3e92-4166-a5ee-f7a7e5403ccc","maxScore":68,"minScore":7,"orderIndex":97,"description":"Institution protect rise animal without hotel maybe. Tough home ground size alone herself.","estimatedTime":"3 weeks"}'
