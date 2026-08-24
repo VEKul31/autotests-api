@@ -27,6 +27,10 @@ class Settings(BaseSettings):
     http_client: HTTPClientConfig
     allure_results_dir: DirectoryPath  # Добавили новое поле
 
+    # Добавляем недостающие поля (можно сделать необязательными)
+    swagger_coverage_services: str | None = None
+    swagger_coverage_html_report_file: str | None = None
+
     # Добавили метод initialize
     @classmethod
     def initialize(cls) -> Self:  # Возвращает экземпляр класса Settings
